@@ -164,7 +164,7 @@ footer .logo {
 
 /* work one ------------------------------- */
 .work-one-hero-section {
-    background-image: url('images/keystone.webp');
+    background-image: url('images/castle-life.jpg');
     padding: 50px;
     height: 50vh;
     background-repeat: no-repeat;
@@ -194,6 +194,43 @@ footer .logo {
     color: #333333;
 }
 
+
+/* work two -------------------------------------------- */
+.work-two-hero-section {
+    background-image: url('images/fly-fish.jpg');
+    padding: 50px;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* work five -------------------------------------------- */
+.work-five-hero-section {
+    background-image: url('images/castle-life.jpg');
+    padding: 50px;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* work five -------------------------------------------- */
+.work-four-hero-section {
+    background-image: url('images/trophy-stout.jpg');
+    padding: 50px;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* work five -------------------------------------------- */
+.work-three-hero-section {
+    background-image: url('images/trophy.jpg');
+    padding: 50px;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .divider {
     padding: 3px;
     background-color: #999898;

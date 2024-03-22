@@ -50,7 +50,7 @@
             <div class="hero-section-text">
                 <p id="hero-subtitle">Girl on fire</p>
                 <h1 id="hero-title">SUPER KOMANDO</h1>
-                <a href="">View Work  <i class="fab fa-arrow-right"></i></a>
+                <a id="view-work" href="">View Work  <i class="fab fa-arrow-right"></i></a>
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
@@ -151,6 +151,7 @@
 
             var currentVideoIndex = 0;
             var videoElement = document.getElementById('hero-video');
+            let viewWork = document.getElementById('view-work');
 
             function switchAndPlayVideo(index) {
                 videoElement.src = videoPaths[index];
@@ -158,23 +159,28 @@
                 videoElement.play();
                 if (currentVideoIndex == 0) {
                     heroSubTitle.innerHTML = 'Castle';
+                    viewWork.href = 'work-one.html'
                     heroTitle.innerHTML = 'Castle Life'
                 }
                 else if (currentVideoIndex == 1) {
                     heroSubTitle.innerHTML = 'Flying Fisher';
                     heroTitle.innerHTML = 'Flying Fish Pool Party'
+                    viewWork.href = 'work-two.html'
                 }
                 else if (currentVideoIndex == 2) {
                     heroSubTitle.innerHTML = 'Trophy'
                     heroTitle.innerHTML = 'Trophy-Tungba'
+                    viewWork.href = 'work-three.html'
                 }
                 else if (currentVideoIndex == 3) {
                     heroSubTitle.innerHTML = 'Trophy Stouts'
                     heroTitle.innerHTML = 'Trophy Stout'
+                    viewWork.href = 'work-four.html'
                 }
                 else if (currentVideoIndex == 4){
                     heroSubTitle.innerHTML = 'Event Report'
                     heroTitle.innerHTML = 'Event report'
+                    viewWork.href = 'work-five.html'
                 }
             }
 
