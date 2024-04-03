@@ -4,6 +4,11 @@
     font-family: sans-serif;
 }
 
+img {
+    /* max-height: 100% !important; */
+    /* height: 50% !important; */
+}
+
 a {
     text-decoration: none;
 }
@@ -254,6 +259,21 @@ footer .logo {
     color: #6c757d;
 }
 
+.meet-the-team {
+    display: flex;
+}
+
+.our-team {
+    text-align: center;
+}
+
+.card-title {
+    font-weight: bold !important;
+}
+
+.role-title {
+    font-size: 14px !important;
+}
 
 .vision-mission-cont {
     display: flex;
