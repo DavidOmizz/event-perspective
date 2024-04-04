@@ -37,7 +37,7 @@ nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar {
+.navbars {
     background-color: whitesmoke;
     padding: 10px;
 }
@@ -267,12 +267,23 @@ footer .logo {
     text-align: center;
 }
 
+.our-team {
+    margin-top: 30px;
+}
+
 .card-title {
     font-weight: bold !important;
 }
 
 .role-title {
-    font-size: 14px !important;
+    font-size: 16px !important;
+    color: #ff1322;
+    text-transform: capitalize;
+}
+
+.card {
+    /* border: 1px solid green !important; */
+    box-shadow: 2px 1px 10px rgb(208, 208, 208) !important;
 }
 
 .vision-mission-cont {
@@ -369,4 +380,68 @@ footer .logo {
     /* width: fit-content;
     height: 500px; */
     /* display: flex; */
+}
+
+
+
+/* Contact Us ------------------------------------------ */
+.contact-bg {
+    background-image: url('images/contact-bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('images/contact-bg.jpg'); */
+    padding: 120px;
+    text-align: center;
+    color: white;
+}
+.contact-bg h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.company-address {
+    display: flex;
+    text-align: center;
+    color: white;
+}
+
+.company-address a {
+    text-decoration: none;
+    color: white;
+}
+
+.company-address h3 {
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.meet-us-address-list {
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.meet-us-address-list p {
+    margin: 15px 0;
+}
+
+.meet-us-address-socails {
+    text-align: left;
+    margin: 0 auto;
+    width: 60%;
+}
+.meet-us-address-socails p {
+    margin: 15px 0;
+}
+
+.meet-us-addresses {
+    background-color: blue;
+    width: 50%;
+    padding: 20px;
+}
+.meet-us-socials {
+    background-color: #ff1323a9;
+    width: 50%;
+    padding: 20px;
 }
