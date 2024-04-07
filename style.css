@@ -149,11 +149,13 @@ footer .logo {
     width: 80%;
     margin: 20px;
     border-radius: 2px;
+    /* background-color: red; */
 }
 .cont1 img {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;
+    height: 70%;
 }
 .cont1 p {
     font-size: 17px;
@@ -323,6 +325,11 @@ footer .logo {
 .what-we-offer-container {
     text-align: center;
 }
+
+.what-we-offer-text {
+    text-align: center;   
+    margin: 20px;
+}
 .what-we-offer {
     display: flex;
     text-align: center;
@@ -380,6 +387,20 @@ footer .logo {
     /* width: fit-content;
     height: 500px; */
     /* display: flex; */
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+}
+.companies img {
+    max-width: 100%;
+    height: 100px;
+}
+
+.comp-1 {
+    display: flex;
+    margin: 0 auto;
 }
 
 
