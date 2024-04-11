@@ -49,10 +49,10 @@
                 </video>
             </div>
             <div class="hero-section-text">
-                <p id="hero-subtitle">Girl on fire</p>
-                <h1 id="hero-title">SUPER KOMANDO</h1>
-                <a id="view-work" href="">View Work  <i class="fab fa-arrow-right"></i></a>
-                <i class="fa-solid fa-arrow-right"></i>
+                <p id="hero-subtitle"></p>
+                <h1 id="hero-title"></h1>
+                <!-- <a id="view-work" href=""><i class="fab fa-arrow-right"></i></a>
+                <i class="fa-solid fa-arrow-right"></i> -->
             </div>
         </div>
         
@@ -73,10 +73,10 @@
                 <a href="" onclick="changeVideo(3); return false;">Stout</a>
                 <p class="company-name">Trophy Stout</p>
             </div>
-            <div class="video1">
+            <!-- <div class="video1">
                 <a href="" onclick="changeVideo(4); return false;">Events</a>
                 <p class="company-name">Event PERSPECTIVE report</p>
-            </div>
+            </div> -->
         </div>
         
 
@@ -94,16 +94,11 @@
 
         <script>
             let videoPaths = [
-                // './video/pexels-2022395.mp4',
-                'https://res.cloudinary.com/dav6jin5t/video/upload/v1711110019/Flying_Fish_FLY_Pool_Party_New_fycwq0.mp4',
-                'https://res.cloudinary.com/dav6jin5t/video/upload/v1711110019/Flying_Fish_FLY_Pool_Party_New_fycwq0.mp4',
-                'https://res.cloudinary.com/dav6jin5t/video/upload/v1711110004/3MINUTES_TROPHY-TUNGBA_i770vn.mp4',
-                'https://res.cloudinary.com/dav6jin5t/video/upload/v1711110007/TROPHY_STOUT_CAN_2MIN_se0yll.mp4',
-                'https://res.cloudinary.com/dav6jin5t/video/upload/v1711110007/TROPHY_STOUT_CAN_2MIN_se0yll.mp4',
-                './video/pexels-2022395.mp4',
-                './video/pexels-2022395.mp4',
-                './video/pexels-2022395.mp4',
-                './video/pexels-2022395.mp4',
+                'https://res.cloudinary.com/dzu08nb5x/video/upload/v1712803546/CASTLE_LITE_VIDEO_u5ax1g.mp4',
+                'https://res.cloudinary.com/dzu08nb5x/video/upload/v1712805962/FLYING_FISH_POOL_PARTY_fcldfd.mp4',
+                'https://res.cloudinary.com/dzu08nb5x/video/upload/v1712805134/TUGBA_TROPHY_CLIP_teqwap.mp4',
+                'https://res.cloudinary.com/dzu08nb5x/video/upload/v1712803582/TROPHY_VIDEO_mpapyp.mp4',
+                // 'https://res.cloudinary.com/dzu08nb5x/video/upload/v1712806161/AMAZING_GOLDEN_PENNY_quk7hb.mp4',
                 // './video/castle lite .mp4',
                 // './video/Flying Fish FLY Pool Party New.mp4',
                 // './video/3MINUTES TROPHY-TUNGBA.mp4',
@@ -158,31 +153,31 @@
                 videoElement.src = videoPaths[index];
                 currentVideoIndex = index;
                 videoElement.play();
-                if (currentVideoIndex == 0) {
-                    heroSubTitle.innerHTML = 'Castle';
-                    viewWork.href = 'work-one.html'
-                    heroTitle.innerHTML = 'Castle Life'
-                }
-                else if (currentVideoIndex == 1) {
-                    heroSubTitle.innerHTML = 'Flying Fisher';
-                    heroTitle.innerHTML = 'Flying Fish Pool Party'
-                    viewWork.href = 'work-two.html'
-                }
-                else if (currentVideoIndex == 2) {
-                    heroSubTitle.innerHTML = 'Trophy'
-                    heroTitle.innerHTML = 'Trophy-Tungba'
-                    viewWork.href = 'work-three.html'
-                }
-                else if (currentVideoIndex == 3) {
-                    heroSubTitle.innerHTML = 'Trophy Stouts'
-                    heroTitle.innerHTML = 'Trophy Stout'
-                    viewWork.href = 'work-four.html'
-                }
-                else if (currentVideoIndex == 4){
-                    heroSubTitle.innerHTML = 'Event Report'
-                    heroTitle.innerHTML = 'Event report'
-                    viewWork.href = 'work-five.html'
-                }
+                // if (currentVideoIndex == 0) {
+                //     heroSubTitle.innerHTML = 'Castle';
+                //     viewWork.href = 'work-one.html'
+                //     heroTitle.innerHTML = 'Castle Life'
+                // }
+                // else if (currentVideoIndex == 1) {
+                //     heroSubTitle.innerHTML = 'Flying Fisher';
+                //     heroTitle.innerHTML = 'Flying Fish Pool Party'
+                //     viewWork.href = 'work-two.html'
+                // }
+                // else if (currentVideoIndex == 2) {
+                //     heroSubTitle.innerHTML = 'Trophy'
+                //     heroTitle.innerHTML = 'Trophy-Tungba'
+                //     viewWork.href = 'work-three.html'
+                // }
+                // else if (currentVideoIndex == 3) {
+                //     heroSubTitle.innerHTML = 'Trophy Stouts'
+                //     heroTitle.innerHTML = 'Trophy Stout'
+                //     viewWork.href = 'work-four.html'
+                // }
+                // else if (currentVideoIndex == 4){
+                //     heroSubTitle.innerHTML = 'Event Report'
+                //     heroTitle.innerHTML = 'Event report'
+                //     viewWork.href = 'work-five.html'
+                // }
             }
 
             // Initial call to switchAndPlayVideo function
